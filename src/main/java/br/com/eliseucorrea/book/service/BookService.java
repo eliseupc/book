@@ -26,6 +26,6 @@ public class BookService {
     }
 
     public void delete(Long id) {
-        this.bookRepository.deleteById(id);
+       this.bookRepository.deleteById(id);
     }
 }
